@@ -27,6 +27,9 @@ const MyComponent = () => {
     );
 };
 ```
+## Output View
+<img width="1067" alt="Screenshot 2024-06-27 at 10 11 43" src="https://github.com/yousefturin/react-native-normalized-size/assets/94796673/fcb480ed-80ef-4058-a167-cf876a28c7b5">
+
 
 ## Contributing
 
