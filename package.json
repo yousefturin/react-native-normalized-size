@@ -1,6 +1,6 @@
 {
   "name": "react-native-normalized-size",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "normalizing size of elements across different devices.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -25,7 +25,6 @@
     "!**/__mocks__",
     "!**/.*"
   ],
-  
   "scripts": {
     "example": "yarn workspace react-native-normalized-size-example",
     "test": "jest",
