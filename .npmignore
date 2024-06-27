@@ -1,0 +1,62 @@
+# Ignore development and test files
+__tests__
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Ignore build artifacts
+lib/
+dist/
+build/
+
+# Ignore editor and environment files
+.vscode/
+.idea/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore scripts and configuration files
+*.config.js
+tsconfig.json
+babel.config.js
+
+# Ignore documentation and non-essential files
+docs/
+*.md
+*.markdown
+
+# Ignore example files
+example/
+
+# Ignore version control files
+.git/
+.gitattributes
+.gitignore
+
+# Ignore dependency-related files
+node_modules/
+.yarn/
+.yarnrc.yml
+.npmrc
+
+# Ignore package-specific files
+package-lock.json
+package-look.json
+
+# Ignore files related to linting and formatting
+.editorconfig
+.watchmanconfig
+lefthook.yml
+
+# Ignore license and contribution files
+LICENSE
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+
+# Ignore Node.js version manager files
+.nvmrc
+
+# Ignore any other files not needed in the npm package
+.DS_Store

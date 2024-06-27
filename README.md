@@ -11,11 +11,21 @@ npm install react-native-normalized-size
 ## Usage
 
 ```js
-import { multiply } from 'react-native-normalized-size';
+import normalizedSize from 'react-native-normalized-size';
+import { Text } from 'react-native';
 
 // ...
 
-const result = await multiply(3, 7);
+const MyComponent = () => {
+    return (
+        <Text
+            style={{
+                fontSize: normalizedSize(20),
+            }}>
+            My Component
+        </Text>
+    );
+};
 ```
 
 ## Contributing
@@ -27,5 +37,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 MIT
 
 ---
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
